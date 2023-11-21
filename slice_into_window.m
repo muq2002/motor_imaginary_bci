@@ -24,3 +24,11 @@ onsets_right = trials(:, :, find(events_code == -1));
 
 size(onsets_left)
 size(onsets_right)
+
+
+figure(1);
+subplot(2,2,1); plot(trials(4, :, 1));
+subplot(2,2,2); plot(trials(6, :, 1));
+
+subplot(2,2,3); plot(trials(4, :, 1));
+subplot(2,2,2); plot(trials(6, :, 1));
